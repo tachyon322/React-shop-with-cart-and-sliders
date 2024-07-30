@@ -1,0 +1,40 @@
+.categories-root{
+    margin-top: 94px;
+    margin-bottom: 80px;
+}
+
+.categories-container{
+    display: flex;
+    gap: 50px;
+}
+
+.categories-img{
+    background-color: #F6F6F6;
+}
+
+.categories-main p{
+    width: 740px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #565656;
+}
+
+.slide a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.fake-pagination{
+    display: flex;
+    gap: 8px;
+}
+
+.fake-pag__item{
+    width: 24px;
+    height: 0px;
+    border: 1px solid red;
+}

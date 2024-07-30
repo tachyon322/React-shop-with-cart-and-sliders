@@ -1,0 +1,56 @@
+.header{
+    width: 100%;
+    background-color: var(--p-color);
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-w-city{
+    display: flex;
+    gap: 30px;
+    padding: 25px 0;
+}
+
+.header-logo{
+    color: white;
+}
+
+.menu-city{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.menu-city__p{
+    color: white;
+    width: 137px;
+}
+
+.header-nav__ul{
+    display: flex;
+    position: relative;
+    gap: 35px;
+    left: -50px;
+
+}
+
+.header-nav__ul a{
+    color: white;
+    padding: 15px;
+}
+
+.header-nav__ul a:hover{
+    background-color: red;
+    border-radius: 25px;
+}
+
+.header-ul__controls{
+    display: flex;
+    gap: 20px;
+}

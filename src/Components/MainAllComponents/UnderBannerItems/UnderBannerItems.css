@@ -1,0 +1,28 @@
+.under__circle{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.under-list{
+    display: flex;
+    margin-top: 80px;
+    gap: 30px;
+}
+
+.under__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.under-item-title{
+    font-weight: 600;
+}

@@ -1,0 +1,71 @@
+.popular-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 46px;
+}
+
+.popular-title-catalog{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: #565656;
+    align-items: center;
+}
+
+.popular-title-catalog:hover .popular-title-svg{
+    transform: translateX(5px);
+    transition: 0.2s;
+}
+
+.popular-title-catalog:not(:hover) .popular-title-svg{
+    transition: 0.2s;
+}
+
+/* slide */
+.popular-slide{
+    min-width: 300px;
+}
+
+.slide-container{
+    width: 300px;
+}
+
+.hearth-btn{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 3px;
+    top: 10px;
+}
+
+.popular-price-w-shopping-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.popular-price-w-shopping-btn button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.shopping-btn{
+    cursor: pointer;
+}
+
+.popular-description{
+    margin: 10px 0;
+}
+
+.popular-cloth-names a{
+    text-decoration: none;
+    color: black;
+}
+
+.Splide__track{
+    width: calc(100% + 200px);
+}

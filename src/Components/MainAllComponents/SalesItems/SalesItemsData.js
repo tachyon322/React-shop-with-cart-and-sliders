@@ -1,0 +1,58 @@
+export const SalesItemsData = [
+    {
+        image: require('./../../../imgs/Popular_imgs/1.png'),
+        title: 'Stone Island',
+        description: 'Зип худи шерпа  с капюшоном (белый)',
+        sizes: '40 46 52 58',
+        price: '12150',
+    },
+    {
+        image: require('./../../../imgs/glasses.png'),
+        title: 'Invu',
+        description: 'Очки черные Invu',
+        sizes: '41 42 56 58',
+        price: '29990',
+    },
+    {
+        image: require('./../../../imgs/green-jacket.png'),
+        title: 'Stone Island',
+        description: 'Зип худи черный мех',
+        sizes: '56 58',
+        price: '7990',
+    },
+    {
+        image: require('./../../../imgs/bomber.png'),
+        title: 'Stone Island',
+        description: 'Зип худи с капюшоном',
+        sizes: '41 42 56 58',
+        price: '7500',
+    },
+    {
+        image: require('./../../../imgs/Popular_imgs/5.png'),
+        title: 'Stone Island',
+        description: 'Зип худи с капюшоном',
+        sizes: '39 45 58',
+        price: '13990',
+    },
+    {
+        image: require('./../../../imgs/Popular_imgs/2.png'),
+        title: 'Stone Island',
+        description: 'Зип худи с капюшоном',
+        sizes: '39 45 58',
+        price: '13990',
+    },
+    {
+        image: require('./../../../imgs/Popular_imgs/3.png'),
+        title: 'Stone Island',
+        description: 'Зип худи с капюшоном',
+        sizes: '39 45 58',
+        price: '13990',
+    },
+    {
+        image: require('./../../../imgs/Popular_imgs/4.png'),
+        title: 'Stone Island',
+        description: 'Зип худи с капюшоном',
+        sizes: '39 45 58',
+        price: '13990',
+    },
+]

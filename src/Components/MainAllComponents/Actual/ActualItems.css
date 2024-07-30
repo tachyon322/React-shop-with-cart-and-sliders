@@ -1,0 +1,55 @@
+.actual-root{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.actual-title{
+    margin-bottom: 40px;
+}
+
+.swiper{
+    width: 1291px;
+}
+
+.swiper-container{
+    height: 100vh;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    display: none;
+}
+
+.custom-navigation{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+}
+
+.swiper-pagination{
+    transform: translate(570px, -5px);
+}
+
+.actual-item{
+    display: flex;
+    gap: 20px;
+}
+
+.actual-small-images{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.actual-item__title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.actual-item__description{
+    font-weight: 400;
+}
